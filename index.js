@@ -1,7 +1,7 @@
-const axios = require("axios")
-const urls = ["link project"]
-setInterval(function() {
-            urls.forEach(url => {
-            axios.get(url).then(console.log("Pong at " + Date.now())).catch(() => {});
-        })
-    }, 60 * 1000);
+const  axios  =  membutuhkan ( "axios" )
+const  urls  =  [ "https://f2tw-vip-project.glitch.me" ]
+setInterval ( function ( )  {
+            url . forEach ( url  =>  {
+            axios . dapatkan ( url ) . kemudian ( konsol . log ( "Pong at"  +  Tanggal . sekarang ( ) ) ) . menangkap ( ( )  =>  { } ) ;
+        } )
+    } ,  60 * 1000 ) ;
