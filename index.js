@@ -1,5 +1,5 @@
 const  axios  =  membutuhkan ( "axios" )
-const  url  =  [ "https://f2tw-vip-project.glitch.me" ]
+const  urls =  [ "https://f2tw-vip-project.glitch.me" ]
 setInterval ( function ( )  {
             url . forEach ( url  =>  {
             axios . dapatkan ( url ) . kemudian ( konsol . log ( "Pong at"  +  Tanggal . sekarang ( ) ) ) . menangkap ( ( )  =>  { } ) ;
